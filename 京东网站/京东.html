@@ -1,0 +1,3164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-1.11.3.js"></script>
+    <script src="main.js"></script>
+    <script src="move.js"></script>
+</head>
+<body>
+    <header>
+        <div class="head_top w">
+            <div class="left">
+                <span>配送：北京<img src="images/header/1.jpg"></span>
+                <ul class="city">
+                    <li class="active">北京</li>
+                    <li>上海</li>
+                    <li>天津</li>
+                    <li>重庆</li>
+                    <li>河北</li>
+                    <li>山西</li>
+                    <li>河南</li>
+                    <li>辽宁</li>
+                    <li>吉林</li>
+                    <li>黑龙江</li>
+                    <li>内蒙古</li>
+                    <li>江苏</li>
+                    <li>山东</li>
+                    <li>安徽</li>
+                    <li>浙江</li>
+                    <li>福建</li>
+                    <li>湖北</li>
+                    <li>湖南</li>
+                    <li>广东</li>
+                    <li>广西</li>
+                    <li>江西</li>
+                    <li>四川</li>
+                    <li>海南</li>
+                    <li>贵州</li>
+                    <li>云南</li>
+                    <li>西藏</li>
+                    <li>陕西</li>
+                    <li>甘肃</li>
+                    <li>青海</li>
+                    <li>宁夏</li>
+                    <li>新疆</li>
+                    <li>台湾</li>
+                    <li>香港</li>
+                    <li>澳门</li>
+                    <li>海外</li>
+                </ul>
+            </div>
+            <div class="center">
+                <a href="#">您好，请登录</a>
+                <a href="#">免费注册</a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">我的订单</a></li>
+                    <li class="my_jd_mouse">
+                        <a href="#">我的京东</a>
+                        <img src="images/header/1.jpg">
+                        <div class="my_jd" style="display: none;">
+                            <h3><img src="images/header/my_jd.png"></h3>
+                            <ul class="clear">
+                                <li><a href="javascript:;">待处理订单</a></li>
+                                <li><a href="javascript:;">我的关注</a></li>
+                                <li><a href="javascript:;">质询回复</a></li>
+                                <li><a href="javascript:;">我的京豆</a></li>
+                                <li><a href="javascript:;">降价商品</a></li>
+                                <li><a href="javascript:;">我的理财</a></li>
+                                <li><a href="javascript:;">返修退化货</a></li>
+                                <li><a href="javascript:;">京东白条</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li><a href="#">京东会员</a></li>
+                    <li><a href="#">企业采购</a></li>
+                    <li class="mobel_jd_mouse">
+                        <a href="#">手机京东</a>
+                        <img src="images/header/1.jpg">
+                        <div class="mobel_jd">
+                            <img src="images/header/mobel_jd.jpg">
+                        </div>
+                    </li>
+                    <li class="guanzhu_jd_mouse">
+                        <a href="#">关注京东</a>
+                        <img src="images/header/1.jpg">
+                        <div class="guanzhu_jd">
+                            <img src="images/header/guagnzhu_jd.png">
+                        </div>
+                    </li>
+                    <li><a href="#">客服服务</a></li>
+                    <li><a href="#">网站导航</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="head_title w">
+            <div class="title">
+                <h2 title="京东商城"></h2>
+            </div>
+            <div class="search">
+                <form action="#">
+                    <input class="text" type="text" placeholder="京东商城网站练习">
+                    <input class="btn" type="submit" value="搜索">
+                </form>
+                <ul class="hot_search">
+                    <li class="active"><a href="#">低至五折</a></li>
+                    <li><a href="#">满99减98</a></li>
+                    <li><a href="#">中秋礼盒</a></li>
+                    <li><a href="#">家装4免1</a></li>
+                    <li><a href="#">托马斯</a></li>
+                    <li><a href="#">sd卡</a></li>
+                    <li><a href="#">橄榄油</a></li>
+                    <li><a href="#">1元专</a>享</li>
+                    <li><a href="#">毛呢大衣女</a></li>
+                </ul>
+            </div>
+            <div class="car">
+                <a href="#">我的购物车<span></span></a>
+                <div class="wrap_car"></div>
+                <div class="number"></div>
+                <div class="car_list">
+                    <img src="images/car.jpg">
+                    <p>购物车中还没有商品，赶紧抢购吧！</p>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <div id="menu" class="w">
+        <span><a href="#">全部商品分类</a></span>
+        <ul>
+            <li><a href="#">服装城</a></li>
+            <li><a href="#">美妆馆</a></li>
+            <li><a href="#">京东超市</a></li>
+            <li><a href="#">生鲜</a></li>
+            <li><a href="#">全球购</a></li>
+            <li><a href="#">闪购</a></li>
+            <li><a href="#">团购</a></li>
+            <li><a href="#">拍卖</a></li>
+            <li><a href="#">金融</a></li>
+        </ul>
+        <a href="http://sale.jd.com/act/eXxRralbiZ.html" target="_blank">
+            <div class="banner"></div>
+        </a>
+    </div>
+
+    <div class="line"></div>
+
+    <div id="center" class="w">
+
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="#">家用电器</a>
+                </li>
+                <li>
+                    <a href="#">手机、</a>
+                    <a href="#">运营商、</a>
+                    <a href="#">数码</a>
+                </li>
+                <li>
+                    <a href="#">电脑、</a>
+                    <a href="#">办公</a>
+                </li>
+                <li>
+                    <a href="#">家居、</a>
+                    <a href="#">家装、</a>
+                    <a href="#">家具、</a>
+                    <a href="#">厨具</a>
+                </li>
+                <li>
+                    <a href="#">男装、</a>
+                    <a href="#">女装、</a>
+                    <a href="#">童装、</a>
+                    <a href="#">内衣</a>
+                </li>
+                <li>
+                    <a href="#">个护化妆、</a>
+                    <a href="#">清洁用品、</a>
+                    <a href="#">宠物</a>
+                </li>
+                <li>
+                    <a href="#">鞋鞋、</a>
+                    <a href="#">箱包、</a>
+                    <a href="#">珠宝、</a>
+                    <a href="#">奢侈品</a>
+                </li>
+                <li>
+                    <a href="#">户外运动、</a>
+                    <a href="#">钟表</a>
+                </li>
+                <li>
+                    <a href="#">汽车、</a>
+                    <a href="#">汽车用品</a>
+                </li>
+                <li>
+                    <a href="#">母婴、</a>
+                    <a href="#">玩具乐器</a>
+                </li>
+                <li>
+                    <a href="#">食品、</a>
+                    <a href="#">酒类、</a>
+                    <a href="#">生鲜、</a>
+                    <a href="#">特产</a>
+                </li>
+                <li>
+                    <a href="#">医药保健</a>
+                </li>
+                <li>
+                    <a href="#">图书、</a>
+                    <a href="#">音像、</a>
+                    <a href="#">电子书</a>
+                </li>
+                <li>
+                    <a href="#">彩票、</a>
+                    <a href="#">旅行、</a>
+                    <a href="#">充值、</a>
+                    <a href="#">票务</a>
+                </li>
+                <li>
+                    <a href="#">理财、</a>
+                    <a href="#">众筹、</a>
+                    <a href="#">白条、</a>
+                    <a href="#">保险</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--图片轮播左侧弹出-->
+        <div class="pop">
+
+            <div class="pop_menu" style="display: none;">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">家电城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">品牌日<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">智能生活馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东净化馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东帮服务店<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">家电众筹馆<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电视 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">合资品牌</a>
+                                <a href="#">国产品牌</a>
+                                <a href="#">互联网品牌</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>空调 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">壁挂式空调</a>
+                                <a href="#">柜式空调</a>
+                                <a href="#">中央空调</a>
+                                <a href="#">空调配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>洗衣机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">滚筒洗衣机</a>
+                                <a href="#">洗烘一体机</a>
+                                <a href="#">波轮洗衣机</a>
+                                <a href="#">洗衣机配件</a>
+                                <a href="#">迷你洗衣机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>冰箱 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">多门</a>
+                                <a href="#">对开门</a>
+                                <a href="#">三门</a>
+                                <a href="#">双门</a>
+                                <a href="#">冷柜/冰吧</a>
+                                <a href="#">酒柜</a>
+                                <a href="#">冰箱配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨卫大电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">油烟机</a>
+                                <a href="#">燃气灶</a>
+                                <a href="#">烟灶套装</a>
+                                <a href="#">消毒柜</a>
+                                <a href="#">洗碗机</a>
+                                <a href="#">电热水器</a>
+                                <a href="#">燃气热水器</a>
+                                <a href="#">嵌入式厨电</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨房小电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电烤箱</a>
+                                <a href="#">电磁炉响</a>
+                                <a href="#">电压力锅</a>
+                                <a href="#">豆浆机</a>
+                                <a href="#">咖啡机</a>
+                                <a href="#">面包机</a>
+                                <a href="#">榨汁机</a>
+                                <a href="#">料理机</a>
+                                <a href="#">电饼铛</a>
+                                <a href="#">养生壶/煎药壶</a>
+                                <a href="#">酸奶机</a>
+                                <a href="#">煮蛋器</a>
+                                <a href="#">电水壶/热水瓶</a>
+                                <a href="#">电炖锅</a>
+                                <a href="#">多用途锅</a>
+                                <a href="#">电烧烤炉</a>
+                                <a href="#">电热饭盒</a>
+                                <a href="#">其它厨房电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>生活电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电风扇</a>
+                                <a href="#">冷风扇</a>
+                                <a href="#">吸尘器</a>
+                                <a href="#">扫地机器人</a>
+                                <a href="#">净化器</a>
+                                <a href="#">加湿器</a>
+                                <a href="#">挂烫机/熨斗</a>
+                                <a href="#">取暖电器</a>
+                                <a href="#">插座</a>
+                                <a href="#">电话机</a>
+                                <a href="#">净水器</a>
+                                <a href="#">饮水机</a>
+                                <a href="#">除湿机</a>
+                                <a href="#">干衣机</a>
+                                <a href="#">清洁机</a>
+                                <a href="#">收录/音机</a>
+                                <a href="#">其它生活电器</a>
+                                <a href="#">生活电器配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>个护健康 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">剃须刀</a>
+                                <a href="#">口腔护理</a>
+                                <a href="#">电吹风</a>
+                                <a href="#">美容器</a>
+                                <a href="#">卷/直发器</a>
+                                <a href="#">理发器</a>
+                                <a href="#">剃/脱毛器</a>
+                                <a href="#">足浴盆</a>
+                                <a href="#">健康秤/厨房秤</a>
+                                <a href="#">按摩器</a>
+                                <a href="#">按摩椅</a>
+                                <a href="#">计步器/脂肪检测仪</a>
+                                <a href="#">其它健康电器</a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>家庭影音 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">家庭影院</a>
+                                <a href="#">迷你音响</a>
+                                <a href="#">电视影音配件</a>&gt;
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>进口电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">进口电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+
+            <div class="pop_menu" style="display: none;">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">玩3C<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">手机频道<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">网上营业厅<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">配件城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">影像Club<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">以旧换新<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电脑整机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">笔记本</a>
+                                <a href="#">游戏本</a>
+                                <a href="#">平板电脑</a>
+                                <a href="#">平板电脑配件</a>
+                                <a href="#">台式机</a>
+                                <a href="#">一体机</a>
+                                <a href="#">服务器/工作站</a>
+                                <a href="#">笔记本配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电脑配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">显示器</a>
+                                <a href="#">CPU</a>
+                                <a href="#">主板</a>
+                                <a href="#">硬盘</a>
+                                <a href="#">内存</a>
+                                <a href="#">机箱</a>
+                                <a href="#">电源</a>
+                                <a href="#">面散热器膜</a>
+                                <a href="#">刻录机/光驱</a>
+                                <a href="#">声卡/扩展卡</a>
+                                <a href="#">装机配件</a>
+                                <a href="#">显卡</a>
+                                <a href="#">SSD固态硬盘</a>
+                                <a href="#">组装电脑</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>外设产品 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">鼠标</a>
+                                <a href="#">键盘</a>
+                                <a href="#">键鼠套装</a>
+                                <a href="#">网络仪表仪器</a>
+                                <a href="#">U盘</a>
+                                <a href="#">移动硬盘</a>
+                                <a href="#">鼠标垫</a>
+                                <a href="#">摄像头</a>
+                                <a href="#">线缆</a>
+                                <a href="#">手写板</a>
+                                <a href="#">硬盘盒</a>
+                                <a href="#">电脑工具</a>
+                                <a href="#">电脑清洁</a>
+                                <a href="#">UPS电源</a>
+                                <a href="#">插座缆</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>摄影摄像 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">数码相机</a>
+                                <a href="#">单电/微单相机</a>
+                                <a href="#">单反相机</a>
+                                <a href="#">拍立得</a>
+                                <a href="#">运动相机</a>
+                                <a href="#">摄像机</a>
+                                <a href="#">镜头</a>
+                                <a href="#">户外器材</a>
+                                <a href="#">影棚器材</a>
+                                <a href="#">冲印服务</a>
+                                <a href="#">数码相框</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>数码配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">存储卡</a>
+                                <a href="#">三脚架/云台</a>
+                                <a href="#">相机包</a>
+                                <a href="#">相机包</a>
+                                <a href="#">滤镜</a>
+                                <a href="#">闪光灯/手柄</a>
+                                <a href="#">相机清洁/贴膜</a>
+                                <a href="#">机身附件</a>
+                                <a href="#">镜头附件</a>
+                                <a href="#">读卡器</a>
+                                <a href="#">支架</a>
+                                <a href="#">电池/充电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>影音娱乐 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">耳机/耳麦</a>
+                                <a href="#">音箱/音响</a>
+                                <a href="#">便携/无线音箱</a>
+                                <a href="#">麦克风</a>
+                                <a href="#">MP3/MP4</a>
+                                <a href="#">专业音频</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>智能设备 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">智能手环</a>
+                                <a href="#">智能手表</a>
+                                <a href="#">智能眼镜</a>
+                                <a href="#">智能机器人</a>
+                                <a href="#">运动跟踪器</a>
+                                <a href="#">健康监测</a>
+                                <a href="#">智能配饰</a>
+                                <a href="#">智能家居</a>
+                                <a href="#">体感车</a>
+                                <a href="#">无人机</a>
+                                <a href="#">其他配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电子教育 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">学生平板</a>
+                                <a href="#">点读机/笔</a>
+                                <a href="#">早教益智</a>
+                                <a href="#">录音笔</a>
+                                <a href="#">电纸书</a>
+                                <a href="#">电子词典</a>
+                                <a href="#">复读机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">家电城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">品牌日<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">智能生活馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东净化馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东帮服务店<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">家电众筹馆<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电视 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">合资品牌</a>
+                                <a href="#">国产品牌</a>
+                                <a href="#">互联网品牌</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>空调 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">壁挂式空调</a>
+                                <a href="#">柜式空调</a>
+                                <a href="#">中央空调</a>
+                                <a href="#">空调配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>洗衣机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">滚筒洗衣机</a>
+                                <a href="#">洗烘一体机</a>
+                                <a href="#">波轮洗衣机</a>
+                                <a href="#">洗衣机配件</a>
+                                <a href="#">迷你洗衣机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>冰箱 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">多门</a>
+                                <a href="#">对开门</a>
+                                <a href="#">三门</a>
+                                <a href="#">双门</a>
+                                <a href="#">冷柜/冰吧</a>
+                                <a href="#">酒柜</a>
+                                <a href="#">冰箱配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨卫大电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">油烟机</a>
+                                <a href="#">燃气灶</a>
+                                <a href="#">烟灶套装</a>
+                                <a href="#">消毒柜</a>
+                                <a href="#">洗碗机</a>
+                                <a href="#">电热水器</a>
+                                <a href="#">燃气热水器</a>
+                                <a href="#">嵌入式厨电</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨房小电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电烤箱</a>
+                                <a href="#">电磁炉响</a>
+                                <a href="#">电压力锅</a>
+                                <a href="#">豆浆机</a>
+                                <a href="#">咖啡机</a>
+                                <a href="#">面包机</a>
+                                <a href="#">榨汁机</a>
+                                <a href="#">料理机</a>
+                                <a href="#">电饼铛</a>
+                                <a href="#">养生壶/煎药壶</a>
+                                <a href="#">酸奶机</a>
+                                <a href="#">煮蛋器</a>
+                                <a href="#">电水壶/热水瓶</a>
+                                <a href="#">电炖锅</a>
+                                <a href="#">多用途锅</a>
+                                <a href="#">电烧烤炉</a>
+                                <a href="#">电热饭盒</a>
+                                <a href="#">其它厨房电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>生活电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电风扇</a>
+                                <a href="#">冷风扇</a>
+                                <a href="#">吸尘器</a>
+                                <a href="#">扫地机器人</a>
+                                <a href="#">净化器</a>
+                                <a href="#">加湿器</a>
+                                <a href="#">挂烫机/熨斗</a>
+                                <a href="#">取暖电器</a>
+                                <a href="#">插座</a>
+                                <a href="#">电话机</a>
+                                <a href="#">净水器</a>
+                                <a href="#">饮水机</a>
+                                <a href="#">除湿机</a>
+                                <a href="#">干衣机</a>
+                                <a href="#">清洁机</a>
+                                <a href="#">收录/音机</a>
+                                <a href="#">其它生活电器</a>
+                                <a href="#">生活电器配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>个护健康 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">剃须刀</a>
+                                <a href="#">口腔护理</a>
+                                <a href="#">电吹风</a>
+                                <a href="#">美容器</a>
+                                <a href="#">卷/直发器</a>
+                                <a href="#">理发器</a>
+                                <a href="#">剃/脱毛器</a>
+                                <a href="#">足浴盆</a>
+                                <a href="#">健康秤/厨房秤</a>
+                                <a href="#">按摩器</a>
+                                <a href="#">按摩椅</a>
+                                <a href="#">计步器/脂肪检测仪</a>
+                                <a href="#">其它健康电器</a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>家庭影音 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">家庭影院</a>
+                                <a href="#">迷你音响</a>
+                                <a href="#">电视影音配件</a>&gt;
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>进口电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">进口电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">玩3C<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">手机频道<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">网上营业厅<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">配件城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">影像Club<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">以旧换新<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电脑整机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">笔记本</a>
+                                <a href="#">游戏本</a>
+                                <a href="#">平板电脑</a>
+                                <a href="#">平板电脑配件</a>
+                                <a href="#">台式机</a>
+                                <a href="#">一体机</a>
+                                <a href="#">服务器/工作站</a>
+                                <a href="#">笔记本配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电脑配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">显示器</a>
+                                <a href="#">CPU</a>
+                                <a href="#">主板</a>
+                                <a href="#">硬盘</a>
+                                <a href="#">内存</a>
+                                <a href="#">机箱</a>
+                                <a href="#">电源</a>
+                                <a href="#">面散热器膜</a>
+                                <a href="#">刻录机/光驱</a>
+                                <a href="#">声卡/扩展卡</a>
+                                <a href="#">装机配件</a>
+                                <a href="#">显卡</a>
+                                <a href="#">SSD固态硬盘</a>
+                                <a href="#">组装电脑</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>外设产品 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">鼠标</a>
+                                <a href="#">键盘</a>
+                                <a href="#">键鼠套装</a>
+                                <a href="#">网络仪表仪器</a>
+                                <a href="#">U盘</a>
+                                <a href="#">移动硬盘</a>
+                                <a href="#">鼠标垫</a>
+                                <a href="#">摄像头</a>
+                                <a href="#">线缆</a>
+                                <a href="#">手写板</a>
+                                <a href="#">硬盘盒</a>
+                                <a href="#">电脑工具</a>
+                                <a href="#">电脑清洁</a>
+                                <a href="#">UPS电源</a>
+                                <a href="#">插座缆</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>摄影摄像 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">数码相机</a>
+                                <a href="#">单电/微单相机</a>
+                                <a href="#">单反相机</a>
+                                <a href="#">拍立得</a>
+                                <a href="#">运动相机</a>
+                                <a href="#">摄像机</a>
+                                <a href="#">镜头</a>
+                                <a href="#">户外器材</a>
+                                <a href="#">影棚器材</a>
+                                <a href="#">冲印服务</a>
+                                <a href="#">数码相框</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>数码配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">存储卡</a>
+                                <a href="#">三脚架/云台</a>
+
+                                <a href="#">相机包</a>
+                                <a href="#">相机包</a>
+                                <a href="#">滤镜</a>
+                                <a href="#">闪光灯/手柄</a>
+                                <a href="#">相机清洁/贴膜</a>
+                                <a href="#">机身附件</a>
+                                <a href="#">镜头附件</a>
+                                <a href="#">读卡器</a>
+                                <a href="#">支架</a>
+                                <a href="#">电池/充电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>影音娱乐 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">耳机/耳麦</a>
+                                <a href="#">音箱/音响</a>
+                                <a href="#">便携/无线音箱</a>
+                                <a href="#">麦克风</a>
+                                <a href="#">MP3/MP4</a>
+                                <a href="#">专业音频</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>智能设备 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">智能手环</a>
+                                <a href="#">智能手表</a>
+                                <a href="#">智能眼镜</a>
+                                <a href="#">智能机器人</a>
+                                <a href="#">运动跟踪器</a>
+                                <a href="#">健康监测</a>
+                                <a href="#">智能配饰</a>
+                                <a href="#">智能家居</a>
+                                <a href="#">体感车</a>
+                                <a href="#">无人机</a>
+                                <a href="#">其他配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电子教育 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">学生平板</a>
+                                <a href="#">点读机/笔</a>
+                                <a href="#">早教益智</a>
+                                <a href="#">录音笔</a>
+                                <a href="#">电纸书</a>
+                                <a href="#">电子词典</a>
+                                <a href="#">复读机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">家电城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">品牌日<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">智能生活馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东净化馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东帮服务店<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">家电众筹馆<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电视 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">合资品牌</a>
+                                <a href="#">国产品牌</a>
+                                <a href="#">互联网品牌</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>空调 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">壁挂式空调</a>
+                                <a href="#">柜式空调</a>
+                                <a href="#">中央空调</a>
+                                <a href="#">空调配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>洗衣机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">滚筒洗衣机</a>
+                                <a href="#">洗烘一体机</a>
+                                <a href="#">波轮洗衣机</a>
+                                <a href="#">洗衣机配件</a>
+                                <a href="#">迷你洗衣机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>冰箱 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">多门</a>
+                                <a href="#">对开门</a>
+                                <a href="#">三门</a>
+                                <a href="#">双门</a>
+                                <a href="#">冷柜/冰吧</a>
+                                <a href="#">酒柜</a>
+                                <a href="#">冰箱配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨卫大电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">油烟机</a>
+                                <a href="#">燃气灶</a>
+                                <a href="#">烟灶套装</a>
+                                <a href="#">消毒柜</a>
+                                <a href="#">洗碗机</a>
+                                <a href="#">电热水器</a>
+                                <a href="#">燃气热水器</a>
+                                <a href="#">嵌入式厨电</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨房小电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电烤箱</a>
+                                <a href="#">电磁炉响</a>
+                                <a href="#">电压力锅</a>
+                                <a href="#">豆浆机</a>
+                                <a href="#">咖啡机</a>
+                                <a href="#">面包机</a>
+                                <a href="#">榨汁机</a>
+                                <a href="#">料理机</a>
+                                <a href="#">电饼铛</a>
+                                <a href="#">养生壶/煎药壶</a>
+                                <a href="#">酸奶机</a>
+                                <a href="#">煮蛋器</a>
+                                <a href="#">电水壶/热水瓶</a>
+                                <a href="#">电炖锅</a>
+                                <a href="#">多用途锅</a>
+                                <a href="#">电烧烤炉</a>
+                                <a href="#">电热饭盒</a>
+                                <a href="#">其它厨房电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>生活电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电风扇</a>
+                                <a href="#">冷风扇</a>
+                                <a href="#">吸尘器</a>
+                                <a href="#">扫地机器人</a>
+                                <a href="#">净化器</a>
+                                <a href="#">加湿器</a>
+                                <a href="#">挂烫机/熨斗</a>
+                                <a href="#">取暖电器</a>
+                                <a href="#">插座</a>
+                                <a href="#">电话机</a>
+                                <a href="#">净水器</a>
+                                <a href="#">饮水机</a>
+                                <a href="#">除湿机</a>
+                                <a href="#">干衣机</a>
+                                <a href="#">清洁机</a>
+                                <a href="#">收录/音机</a>
+                                <a href="#">其它生活电器</a>
+                                <a href="#">生活电器配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>个护健康 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">剃须刀</a>
+                                <a href="#">口腔护理</a>
+                                <a href="#">电吹风</a>
+                                <a href="#">美容器</a>
+                                <a href="#">卷/直发器</a>
+                                <a href="#">理发器</a>
+                                <a href="#">剃/脱毛器</a>
+                                <a href="#">足浴盆</a>
+                                <a href="#">健康秤/厨房秤</a>
+                                <a href="#">按摩器</a>
+                                <a href="#">按摩椅</a>
+                                <a href="#">计步器/脂肪检测仪</a>
+                                <a href="#">其它健康电器</a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>家庭影音 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">家庭影院</a>
+                                <a href="#">迷你音响</a>
+                                <a href="#">电视影音配件</a>&gt;
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>进口电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">进口电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电视 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">合资品牌</a>
+                                <a href="#">国产品牌</a>
+                                <a href="#">互联网品牌</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>空调 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">壁挂式空调</a>
+                                <a href="#">柜式空调</a>
+                                <a href="#">中央空调</a>
+                                <a href="#">空调配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>洗衣机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">滚筒洗衣机</a>
+                                <a href="#">洗烘一体机</a>
+                                <a href="#">波轮洗衣机</a>
+                                <a href="#">洗衣机配件</a>
+                                <a href="#">迷你洗衣机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">玩3C<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">手机频道<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">网上营业厅<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">配件城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">影像Club<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">以旧换新<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>外设产品 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">鼠标</a>
+                                <a href="#">键盘</a>
+                                <a href="#">键鼠套装</a>
+                                <a href="#">网络仪表仪器</a>
+                                <a href="#">U盘</a>
+                                <a href="#">移动硬盘</a>
+                                <a href="#">鼠标垫</a>
+                                <a href="#">摄像头</a>
+                                <a href="#">线缆</a>
+                                <a href="#">手写板</a>
+                                <a href="#">硬盘盒</a>
+                                <a href="#">电脑工具</a>
+                                <a href="#">电脑清洁</a>
+                                <a href="#">UPS电源</a>
+                                <a href="#">插座缆</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>摄影摄像 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">数码相机</a>
+                                <a href="#">单电/微单相机</a>
+                                <a href="#">单反相机</a>
+                                <a href="#">拍立得</a>
+                                <a href="#">运动相机</a>
+                                <a href="#">摄像机</a>
+                                <a href="#">镜头</a>
+                                <a href="#">户外器材</a>
+                                <a href="#">影棚器材</a>
+                                <a href="#">冲印服务</a>
+                                <a href="#">数码相框</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>数码配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">存储卡</a>
+                                <a href="#">三脚架/云台</a>
+
+                                <a href="#">相机包</a>
+                                <a href="#">相机包</a>
+                                <a href="#">滤镜</a>
+                                <a href="#">闪光灯/手柄</a>
+                                <a href="#">相机清洁/贴膜</a>
+                                <a href="#">机身附件</a>
+                                <a href="#">镜头附件</a>
+                                <a href="#">读卡器</a>
+                                <a href="#">支架</a>
+                                <a href="#">电池/充电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>影音娱乐 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">耳机/耳麦</a>
+                                <a href="#">音箱/音响</a>
+                                <a href="#">便携/无线音箱</a>
+                                <a href="#">麦克风</a>
+                                <a href="#">MP3/MP4</a>
+                                <a href="#">专业音频</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>智能设备 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">智能手环</a>
+                                <a href="#">智能手表</a>
+                                <a href="#">智能眼镜</a>
+                                <a href="#">智能机器人</a>
+                                <a href="#">运动跟踪器</a>
+                                <a href="#">健康监测</a>
+                                <a href="#">智能配饰</a>
+                                <a href="#">智能家居</a>
+                                <a href="#">体感车</a>
+                                <a href="#">无人机</a>
+                                <a href="#">其他配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电子教育 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">学生平板</a>
+                                <a href="#">点读机/笔</a>
+                                <a href="#">早教益智</a>
+                                <a href="#">录音笔</a>
+                                <a href="#">电纸书</a>
+                                <a href="#">电子词典</a>
+                                <a href="#">复读机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">家电城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">品牌日<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">智能生活馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东净化馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东帮服务店<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">家电众筹馆<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电视 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">合资品牌</a>
+                                <a href="#">国产品牌</a>
+                                <a href="#">互联网品牌</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>空调 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">壁挂式空调</a>
+                                <a href="#">柜式空调</a>
+                                <a href="#">中央空调</a>
+                                <a href="#">空调配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>洗衣机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">滚筒洗衣机</a>
+                                <a href="#">洗烘一体机</a>
+                                <a href="#">波轮洗衣机</a>
+                                <a href="#">洗衣机配件</a>
+                                <a href="#">迷你洗衣机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>冰箱 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">多门</a>
+                                <a href="#">对开门</a>
+                                <a href="#">三门</a>
+                                <a href="#">双门</a>
+                                <a href="#">冷柜/冰吧</a>
+                                <a href="#">酒柜</a>
+                                <a href="#">冰箱配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨卫大电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">油烟机</a>
+                                <a href="#">燃气灶</a>
+                                <a href="#">烟灶套装</a>
+                                <a href="#">消毒柜</a>
+                                <a href="#">洗碗机</a>
+                                <a href="#">电热水器</a>
+                                <a href="#">燃气热水器</a>
+                                <a href="#">嵌入式厨电</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨房小电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电烤箱</a>
+                                <a href="#">电磁炉响</a>
+                                <a href="#">电压力锅</a>
+                                <a href="#">豆浆机</a>
+                                <a href="#">咖啡机</a>
+                                <a href="#">面包机</a>
+                                <a href="#">榨汁机</a>
+                                <a href="#">料理机</a>
+                                <a href="#">电饼铛</a>
+                                <a href="#">养生壶/煎药壶</a>
+                                <a href="#">酸奶机</a>
+                                <a href="#">煮蛋器</a>
+                                <a href="#">电水壶/热水瓶</a>
+                                <a href="#">电炖锅</a>
+                                <a href="#">多用途锅</a>
+                                <a href="#">电烧烤炉</a>
+                                <a href="#">电热饭盒</a>
+                                <a href="#">其它厨房电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>生活电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电风扇</a>
+                                <a href="#">冷风扇</a>
+                                <a href="#">吸尘器</a>
+                                <a href="#">扫地机器人</a>
+                                <a href="#">净化器</a>
+                                <a href="#">加湿器</a>
+                                <a href="#">挂烫机/熨斗</a>
+                                <a href="#">取暖电器</a>
+                                <a href="#">插座</a>
+                                <a href="#">电话机</a>
+                                <a href="#">净水器</a>
+                                <a href="#">饮水机</a>
+                                <a href="#">除湿机</a>
+                                <a href="#">干衣机</a>
+                                <a href="#">清洁机</a>
+                                <a href="#">收录/音机</a>
+                                <a href="#">其它生活电器</a>
+                                <a href="#">生活电器配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>个护健康 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">剃须刀</a>
+                                <a href="#">口腔护理</a>
+                                <a href="#">电吹风</a>
+                                <a href="#">美容器</a>
+                                <a href="#">卷/直发器</a>
+                                <a href="#">理发器</a>
+                                <a href="#">剃/脱毛器</a>
+                                <a href="#">足浴盆</a>
+                                <a href="#">健康秤/厨房秤</a>
+                                <a href="#">按摩器</a>
+                                <a href="#">按摩椅</a>
+                                <a href="#">计步器/脂肪检测仪</a>
+                                <a href="#">其它健康电器</a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>家庭影音 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">家庭影院</a>
+                                <a href="#">迷你音响</a>
+                                <a href="#">电视影音配件</a>&gt;
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>进口电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">进口电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>冰箱 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">多门</a>
+                                <a href="#">对开门</a>
+                                <a href="#">三门</a>
+                                <a href="#">双门</a>
+                                <a href="#">冷柜/冰吧</a>
+                                <a href="#">酒柜</a>
+                                <a href="#">冰箱配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨卫大电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">油烟机</a>
+                                <a href="#">燃气灶</a>
+                                <a href="#">烟灶套装</a>
+                                <a href="#">消毒柜</a>
+                                <a href="#">洗碗机</a>
+                                <a href="#">电热水器</a>
+                                <a href="#">燃气热水器</a>
+                                <a href="#">嵌入式厨电</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">玩3C<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">手机频道<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">网上营业厅<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">配件城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">影像Club<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">以旧换新<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+
+                        <li>
+                            <h4><a href="#"><strong>外设产品 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">鼠标</a>
+                                <a href="#">键盘</a>
+                                <a href="#">键鼠套装</a>
+                                <a href="#">网络仪表仪器</a>
+                                <a href="#">U盘</a>
+                                <a href="#">移动硬盘</a>
+                                <a href="#">鼠标垫</a>
+                                <a href="#">摄像头</a>
+                                <a href="#">线缆</a>
+                                <a href="#">手写板</a>
+                                <a href="#">硬盘盒</a>
+                                <a href="#">电脑工具</a>
+                                <a href="#">电脑清洁</a>
+                                <a href="#">UPS电源</a>
+                                <a href="#">插座缆</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>摄影摄像 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">数码相机</a>
+                                <a href="#">单电/微单相机</a>
+                                <a href="#">单反相机</a>
+                                <a href="#">拍立得</a>
+                                <a href="#">运动相机</a>
+                                <a href="#">摄像机</a>
+                                <a href="#">镜头</a>
+                                <a href="#">户外器材</a>
+                                <a href="#">影棚器材</a>
+                                <a href="#">冲印服务</a>
+                                <a href="#">数码相框</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>数码配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">存储卡</a>
+                                <a href="#">三脚架/云台</a>
+
+                                <a href="#">相机包</a>
+                                <a href="#">相机包</a>
+                                <a href="#">滤镜</a>
+                                <a href="#">闪光灯/手柄</a>
+                                <a href="#">相机清洁/贴膜</a>
+                                <a href="#">机身附件</a>
+                                <a href="#">镜头附件</a>
+                                <a href="#">读卡器</a>
+                                <a href="#">支架</a>
+                                <a href="#">电池/充电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>影音娱乐 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">耳机/耳麦</a>
+                                <a href="#">音箱/音响</a>
+                                <a href="#">便携/无线音箱</a>
+                                <a href="#">麦克风</a>
+                                <a href="#">MP3/MP4</a>
+                                <a href="#">专业音频</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电子教育 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">学生平板</a>
+                                <a href="#">点读机/笔</a>
+                                <a href="#">早教益智</a>
+                                <a href="#">录音笔</a>
+                                <a href="#">电纸书</a>
+                                <a href="#">电子词典</a>
+                                <a href="#">复读机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">家电城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">品牌日<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">智能生活馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东净化馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东帮服务店<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">家电众筹馆<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电视 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">合资品牌</a>
+                                <a href="#">国产品牌</a>
+                                <a href="#">互联网品牌</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>空调 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">壁挂式空调</a>
+                                <a href="#">柜式空调</a>
+                                <a href="#">中央空调</a>
+                                <a href="#">空调配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>洗衣机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">滚筒洗衣机</a>
+                                <a href="#">洗烘一体机</a>
+                                <a href="#">波轮洗衣机</a>
+                                <a href="#">洗衣机配件</a>
+                                <a href="#">迷你洗衣机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>冰箱 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">多门</a>
+                                <a href="#">对开门</a>
+                                <a href="#">三门</a>
+                                <a href="#">双门</a>
+                                <a href="#">冷柜/冰吧</a>
+                                <a href="#">酒柜</a>
+                                <a href="#">冰箱配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨卫大电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">油烟机</a>
+                                <a href="#">燃气灶</a>
+                                <a href="#">烟灶套装</a>
+                                <a href="#">消毒柜</a>
+                                <a href="#">洗碗机</a>
+                                <a href="#">电热水器</a>
+                                <a href="#">燃气热水器</a>
+                                <a href="#">嵌入式厨电</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨房小电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电烤箱</a>
+                                <a href="#">电磁炉响</a>
+                                <a href="#">电压力锅</a>
+                                <a href="#">豆浆机</a>
+                                <a href="#">咖啡机</a>
+                                <a href="#">面包机</a>
+                                <a href="#">榨汁机</a>
+                                <a href="#">料理机</a>
+                                <a href="#">电饼铛</a>
+                                <a href="#">养生壶/煎药壶</a>
+                                <a href="#">酸奶机</a>
+                                <a href="#">煮蛋器</a>
+                                <a href="#">电水壶/热水瓶</a>
+                                <a href="#">电炖锅</a>
+                                <a href="#">多用途锅</a>
+                                <a href="#">电烧烤炉</a>
+                                <a href="#">电热饭盒</a>
+                                <a href="#">其它厨房电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>生活电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电风扇</a>
+                                <a href="#">冷风扇</a>
+                                <a href="#">吸尘器</a>
+                                <a href="#">扫地机器人</a>
+                                <a href="#">净化器</a>
+                                <a href="#">加湿器</a>
+                                <a href="#">挂烫机/熨斗</a>
+                                <a href="#">取暖电器</a>
+                                <a href="#">插座</a>
+                                <a href="#">电话机</a>
+                                <a href="#">净水器</a>
+                                <a href="#">饮水机</a>
+                                <a href="#">除湿机</a>
+                                <a href="#">干衣机</a>
+                                <a href="#">清洁机</a>
+                                <a href="#">收录/音机</a>
+                                <a href="#">其它生活电器</a>
+                                <a href="#">生活电器配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>个护健康 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">剃须刀</a>
+                                <a href="#">口腔护理</a>
+                                <a href="#">电吹风</a>
+                                <a href="#">美容器</a>
+                                <a href="#">卷/直发器</a>
+                                <a href="#">理发器</a>
+                                <a href="#">剃/脱毛器</a>
+                                <a href="#">足浴盆</a>
+                                <a href="#">健康秤/厨房秤</a>
+                                <a href="#">按摩器</a>
+                                <a href="#">按摩椅</a>
+                                <a href="#">计步器/脂肪检测仪</a>
+                                <a href="#">其它健康电器</a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>家庭影音 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">家庭影院</a>
+                                <a href="#">迷你音响</a>
+                                <a href="#">电视影音配件</a>&gt;
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>进口电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">进口电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>个护健康 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">剃须刀</a>
+                                <a href="#">口腔护理</a>
+                                <a href="#">电吹风</a>
+                                <a href="#">美容器</a>
+                                <a href="#">卷/直发器</a>
+                                <a href="#">理发器</a>
+                                <a href="#">剃/脱毛器</a>
+                                <a href="#">足浴盆</a>
+                                <a href="#">健康秤/厨房秤</a>
+                                <a href="#">按摩器</a>
+                                <a href="#">按摩椅</a>
+                                <a href="#">计步器/脂肪检测仪</a>
+                                <a href="#">其它健康电器</a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>家庭影音 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">家庭影院</a>
+                                <a href="#">迷你音响</a>
+                                <a href="#">电视影音配件</a>&gt;
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>进口电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">进口电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">玩3C<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">手机频道<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">网上营业厅<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">配件城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">影像Club<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">以旧换新<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电脑整机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">笔记本</a>
+                                <a href="#">游戏本</a>
+                                <a href="#">平板电脑</a>
+                                <a href="#">平板电脑配件</a>
+                                <a href="#">台式机</a>
+                                <a href="#">一体机</a>
+                                <a href="#">服务器/工作站</a>
+                                <a href="#">笔记本配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电脑配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">显示器</a>
+                                <a href="#">CPU</a>
+                                <a href="#">主板</a>
+                                <a href="#">硬盘</a>
+                                <a href="#">内存</a>
+                                <a href="#">机箱</a>
+                                <a href="#">电源</a>
+                                <a href="#">面散热器膜</a>
+                                <a href="#">刻录机/光驱</a>
+                                <a href="#">声卡/扩展卡</a>
+                                <a href="#">装机配件</a>
+                                <a href="#">显卡</a>
+                                <a href="#">SSD固态硬盘</a>
+                                <a href="#">组装电脑</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>外设产品 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">鼠标</a>
+                                <a href="#">键盘</a>
+                                <a href="#">键鼠套装</a>
+                                <a href="#">网络仪表仪器</a>
+                                <a href="#">U盘</a>
+                                <a href="#">移动硬盘</a>
+                                <a href="#">鼠标垫</a>
+                                <a href="#">摄像头</a>
+                                <a href="#">线缆</a>
+                                <a href="#">手写板</a>
+                                <a href="#">硬盘盒</a>
+                                <a href="#">电脑工具</a>
+                                <a href="#">电脑清洁</a>
+                                <a href="#">UPS电源</a>
+                                <a href="#">插座缆</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>摄影摄像 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">数码相机</a>
+                                <a href="#">单电/微单相机</a>
+                                <a href="#">单反相机</a>
+                                <a href="#">拍立得</a>
+                                <a href="#">运动相机</a>
+                                <a href="#">摄像机</a>
+                                <a href="#">镜头</a>
+                                <a href="#">户外器材</a>
+                                <a href="#">影棚器材</a>
+                                <a href="#">冲印服务</a>
+                                <a href="#">数码相框</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>数码配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">存储卡</a>
+                                <a href="#">三脚架/云台</a>
+
+                                <a href="#">相机包</a>
+                                <a href="#">相机包</a>
+                                <a href="#">滤镜</a>
+                                <a href="#">闪光灯/手柄</a>
+                                <a href="#">相机清洁/贴膜</a>
+                                <a href="#">机身附件</a>
+                                <a href="#">镜头附件</a>
+                                <a href="#">读卡器</a>
+                                <a href="#">支架</a>
+                                <a href="#">电池/充电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>影音娱乐 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">耳机/耳麦</a>
+                                <a href="#">音箱/音响</a>
+                                <a href="#">便携/无线音箱</a>
+                                <a href="#">麦克风</a>
+                                <a href="#">MP3/MP4</a>
+                                <a href="#">专业音频</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>智能设备 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">智能手环</a>
+                                <a href="#">智能手表</a>
+                                <a href="#">智能眼镜</a>
+                                <a href="#">智能机器人</a>
+                                <a href="#">运动跟踪器</a>
+                                <a href="#">健康监测</a>
+                                <a href="#">智能配饰</a>
+                                <a href="#">智能家居</a>
+                                <a href="#">体感车</a>
+                                <a href="#">无人机</a>
+                                <a href="#">其他配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电子教育 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">学生平板</a>
+                                <a href="#">点读机/笔</a>
+                                <a href="#">早教益智</a>
+                                <a href="#">录音笔</a>
+                                <a href="#">电纸书</a>
+                                <a href="#">电子词典</a>
+                                <a href="#">复读机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">家电城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">品牌日<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">智能生活馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东净化馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东帮服务店<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">家电众筹馆<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电视 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">合资品牌</a>
+                                <a href="#">国产品牌</a>
+                                <a href="#">互联网品牌</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>空调 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">壁挂式空调</a>
+                                <a href="#">柜式空调</a>
+                                <a href="#">中央空调</a>
+                                <a href="#">空调配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>洗衣机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">滚筒洗衣机</a>
+                                <a href="#">洗烘一体机</a>
+                                <a href="#">波轮洗衣机</a>
+                                <a href="#">洗衣机配件</a>
+                                <a href="#">迷你洗衣机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>冰箱 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">多门</a>
+                                <a href="#">对开门</a>
+                                <a href="#">三门</a>
+                                <a href="#">双门</a>
+                                <a href="#">冷柜/冰吧</a>
+                                <a href="#">酒柜</a>
+                                <a href="#">冰箱配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨卫大电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">油烟机</a>
+                                <a href="#">燃气灶</a>
+                                <a href="#">烟灶套装</a>
+                                <a href="#">消毒柜</a>
+                                <a href="#">洗碗机</a>
+                                <a href="#">电热水器</a>
+                                <a href="#">燃气热水器</a>
+                                <a href="#">嵌入式厨电</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨房小电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电烤箱</a>
+                                <a href="#">电磁炉响</a>
+                                <a href="#">电压力锅</a>
+                                <a href="#">豆浆机</a>
+                                <a href="#">咖啡机</a>
+                                <a href="#">面包机</a>
+                                <a href="#">榨汁机</a>
+                                <a href="#">料理机</a>
+                                <a href="#">电饼铛</a>
+                                <a href="#">养生壶/煎药壶</a>
+                                <a href="#">酸奶机</a>
+                                <a href="#">煮蛋器</a>
+                                <a href="#">电水壶/热水瓶</a>
+                                <a href="#">电炖锅</a>
+                                <a href="#">多用途锅</a>
+                                <a href="#">电烧烤炉</a>
+                                <a href="#">电热饭盒</a>
+                                <a href="#">其它厨房电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>生活电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电风扇</a>
+                                <a href="#">冷风扇</a>
+                                <a href="#">吸尘器</a>
+                                <a href="#">扫地机器人</a>
+                                <a href="#">净化器</a>
+                                <a href="#">加湿器</a>
+                                <a href="#">挂烫机/熨斗</a>
+                                <a href="#">取暖电器</a>
+                                <a href="#">插座</a>
+                                <a href="#">电话机</a>
+                                <a href="#">净水器</a>
+                                <a href="#">饮水机</a>
+                                <a href="#">除湿机</a>
+                                <a href="#">干衣机</a>
+                                <a href="#">清洁机</a>
+                                <a href="#">收录/音机</a>
+                                <a href="#">其它生活电器</a>
+                                <a href="#">生活电器配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>个护健康 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">剃须刀</a>
+                                <a href="#">口腔护理</a>
+                                <a href="#">电吹风</a>
+                                <a href="#">美容器</a>
+                                <a href="#">卷/直发器</a>
+                                <a href="#">理发器</a>
+                                <a href="#">剃/脱毛器</a>
+                                <a href="#">足浴盆</a>
+                                <a href="#">健康秤/厨房秤</a>
+                                <a href="#">按摩器</a>
+                                <a href="#">按摩椅</a>
+                                <a href="#">计步器/脂肪检测仪</a>
+                                <a href="#">其它健康电器</a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>家庭影音 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">家庭影院</a>
+                                <a href="#">迷你音响</a>
+                                <a href="#">电视影音配件</a>&gt;
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>进口电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">进口电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">玩3C<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">手机频道<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">网上营业厅<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">配件城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">影像Club<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">以旧换新<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电脑整机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">笔记本</a>
+                                <a href="#">游戏本</a>
+                                <a href="#">平板电脑</a>
+                                <a href="#">平板电脑配件</a>
+                                <a href="#">台式机</a>
+                                <a href="#">一体机</a>
+                                <a href="#">服务器/工作站</a>
+                                <a href="#">笔记本配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电脑配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">显示器</a>
+                                <a href="#">CPU</a>
+                                <a href="#">主板</a>
+                                <a href="#">硬盘</a>
+                                <a href="#">内存</a>
+                                <a href="#">机箱</a>
+                                <a href="#">电源</a>
+                                <a href="#">面散热器膜</a>
+                                <a href="#">刻录机/光驱</a>
+                                <a href="#">声卡/扩展卡</a>
+                                <a href="#">装机配件</a>
+                                <a href="#">显卡</a>
+                                <a href="#">SSD固态硬盘</a>
+                                <a href="#">组装电脑</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>外设产品 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">鼠标</a>
+                                <a href="#">键盘</a>
+                                <a href="#">键鼠套装</a>
+                                <a href="#">网络仪表仪器</a>
+                                <a href="#">U盘</a>
+                                <a href="#">移动硬盘</a>
+                                <a href="#">鼠标垫</a>
+                                <a href="#">摄像头</a>
+                                <a href="#">线缆</a>
+                                <a href="#">手写板</a>
+                                <a href="#">硬盘盒</a>
+                                <a href="#">电脑工具</a>
+                                <a href="#">电脑清洁</a>
+                                <a href="#">UPS电源</a>
+                                <a href="#">插座缆</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>摄影摄像 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">数码相机</a>
+                                <a href="#">单电/微单相机</a>
+                                <a href="#">单反相机</a>
+                                <a href="#">拍立得</a>
+                                <a href="#">运动相机</a>
+                                <a href="#">摄像机</a>
+                                <a href="#">镜头</a>
+                                <a href="#">户外器材</a>
+                                <a href="#">影棚器材</a>
+                                <a href="#">冲印服务</a>
+                                <a href="#">数码相框</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>数码配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">存储卡</a>
+                                <a href="#">三脚架/云台</a>
+
+                                <a href="#">相机包</a>
+                                <a href="#">相机包</a>
+                                <a href="#">滤镜</a>
+                                <a href="#">闪光灯/手柄</a>
+                                <a href="#">相机清洁/贴膜</a>
+                                <a href="#">机身附件</a>
+                                <a href="#">镜头附件</a>
+                                <a href="#">读卡器</a>
+                                <a href="#">支架</a>
+                                <a href="#">电池/充电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>影音娱乐 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">耳机/耳麦</a>
+                                <a href="#">音箱/音响</a>
+                                <a href="#">便携/无线音箱</a>
+                                <a href="#">麦克风</a>
+                                <a href="#">MP3/MP4</a>
+                                <a href="#">专业音频</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>智能设备 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">智能手环</a>
+                                <a href="#">智能手表</a>
+                                <a href="#">智能眼镜</a>
+                                <a href="#">智能机器人</a>
+                                <a href="#">运动跟踪器</a>
+                                <a href="#">健康监测</a>
+                                <a href="#">智能配饰</a>
+                                <a href="#">智能家居</a>
+                                <a href="#">体感车</a>
+                                <a href="#">无人机</a>
+                                <a href="#">其他配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电子教育 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">学生平板</a>
+                                <a href="#">点读机/笔</a>
+                                <a href="#">早教益智</a>
+                                <a href="#">录音笔</a>
+                                <a href="#">电纸书</a>
+                                <a href="#">电子词典</a>
+                                <a href="#">复读机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">家电城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">品牌日<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">智能生活馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东净化馆<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">京东帮服务店<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">家电众筹馆<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电视 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">合资品牌</a>
+                                <a href="#">国产品牌</a>
+                                <a href="#">互联网品牌</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>空调 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">壁挂式空调</a>
+                                <a href="#">柜式空调</a>
+                                <a href="#">中央空调</a>
+                                <a href="#">空调配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>洗衣机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">滚筒洗衣机</a>
+                                <a href="#">洗烘一体机</a>
+                                <a href="#">波轮洗衣机</a>
+                                <a href="#">洗衣机配件</a>
+                                <a href="#">迷你洗衣机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>冰箱 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">多门</a>
+                                <a href="#">对开门</a>
+                                <a href="#">三门</a>
+                                <a href="#">双门</a>
+                                <a href="#">冷柜/冰吧</a>
+                                <a href="#">酒柜</a>
+                                <a href="#">冰箱配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨卫大电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">油烟机</a>
+                                <a href="#">燃气灶</a>
+                                <a href="#">烟灶套装</a>
+                                <a href="#">消毒柜</a>
+                                <a href="#">洗碗机</a>
+                                <a href="#">电热水器</a>
+                                <a href="#">燃气热水器</a>
+                                <a href="#">嵌入式厨电</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>厨房小电 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电烤箱</a>
+                                <a href="#">电磁炉响</a>
+                                <a href="#">电压力锅</a>
+                                <a href="#">豆浆机</a>
+                                <a href="#">咖啡机</a>
+                                <a href="#">面包机</a>
+                                <a href="#">榨汁机</a>
+                                <a href="#">料理机</a>
+                                <a href="#">电饼铛</a>
+                                <a href="#">养生壶/煎药壶</a>
+                                <a href="#">酸奶机</a>
+                                <a href="#">煮蛋器</a>
+                                <a href="#">电水壶/热水瓶</a>
+                                <a href="#">电炖锅</a>
+                                <a href="#">多用途锅</a>
+                                <a href="#">电烧烤炉</a>
+                                <a href="#">电热饭盒</a>
+                                <a href="#">其它厨房电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>生活电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">电风扇</a>
+                                <a href="#">冷风扇</a>
+                                <a href="#">吸尘器</a>
+                                <a href="#">扫地机器人</a>
+                                <a href="#">净化器</a>
+                                <a href="#">加湿器</a>
+                                <a href="#">挂烫机/熨斗</a>
+                                <a href="#">取暖电器</a>
+                                <a href="#">插座</a>
+                                <a href="#">电话机</a>
+                                <a href="#">净水器</a>
+                                <a href="#">饮水机</a>
+                                <a href="#">除湿机</a>
+                                <a href="#">干衣机</a>
+                                <a href="#">清洁机</a>
+                                <a href="#">收录/音机</a>
+                                <a href="#">其它生活电器</a>
+                                <a href="#">生活电器配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>个护健康 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">剃须刀</a>
+                                <a href="#">口腔护理</a>
+                                <a href="#">电吹风</a>
+                                <a href="#">美容器</a>
+                                <a href="#">卷/直发器</a>
+                                <a href="#">理发器</a>
+                                <a href="#">剃/脱毛器</a>
+                                <a href="#">足浴盆</a>
+                                <a href="#">健康秤/厨房秤</a>
+                                <a href="#">按摩器</a>
+                                <a href="#">按摩椅</a>
+                                <a href="#">计步器/脂肪检测仪</a>
+                                <a href="#">其它健康电器</a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>家庭影音 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">家庭影院</a>
+                                <a href="#">迷你音响</a>
+                                <a href="#">电视影音配件</a>&gt;
+                            </div>
+                        </li>
+                        <li>
+                            <h4><a href="#"><strong>进口电器 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">进口电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">玩3C<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">手机频道<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">网上营业厅<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">配件城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">影像Club<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">以旧换新<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电脑整机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">笔记本</a>
+                                <a href="#">游戏本</a>
+                                <a href="#">平板电脑</a>
+                                <a href="#">平板电脑配件</a>
+                                <a href="#">台式机</a>
+                                <a href="#">一体机</a>
+                                <a href="#">服务器/工作站</a>
+                                <a href="#">笔记本配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电脑配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">显示器</a>
+                                <a href="#">CPU</a>
+                                <a href="#">主板</a>
+                                <a href="#">硬盘</a>
+                                <a href="#">内存</a>
+                                <a href="#">机箱</a>
+                                <a href="#">电源</a>
+                                <a href="#">面散热器膜</a>
+                                <a href="#">刻录机/光驱</a>
+                                <a href="#">声卡/扩展卡</a>
+                                <a href="#">装机配件</a>
+                                <a href="#">显卡</a>
+                                <a href="#">SSD固态硬盘</a>
+                                <a href="#">组装电脑</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>外设产品 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">鼠标</a>
+                                <a href="#">键盘</a>
+                                <a href="#">键鼠套装</a>
+                                <a href="#">网络仪表仪器</a>
+                                <a href="#">U盘</a>
+                                <a href="#">移动硬盘</a>
+                                <a href="#">鼠标垫</a>
+                                <a href="#">摄像头</a>
+                                <a href="#">线缆</a>
+                                <a href="#">手写板</a>
+                                <a href="#">硬盘盒</a>
+                                <a href="#">电脑工具</a>
+                                <a href="#">电脑清洁</a>
+                                <a href="#">UPS电源</a>
+                                <a href="#">插座缆</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>摄影摄像 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">数码相机</a>
+                                <a href="#">单电/微单相机</a>
+                                <a href="#">单反相机</a>
+                                <a href="#">拍立得</a>
+                                <a href="#">运动相机</a>
+                                <a href="#">摄像机</a>
+                                <a href="#">镜头</a>
+                                <a href="#">户外器材</a>
+                                <a href="#">影棚器材</a>
+                                <a href="#">冲印服务</a>
+                                <a href="#">数码相框</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>数码配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">存储卡</a>
+                                <a href="#">三脚架/云台</a>
+
+                                <a href="#">相机包</a>
+                                <a href="#">相机包</a>
+                                <a href="#">滤镜</a>
+                                <a href="#">闪光灯/手柄</a>
+                                <a href="#">相机清洁/贴膜</a>
+                                <a href="#">机身附件</a>
+                                <a href="#">镜头附件</a>
+                                <a href="#">读卡器</a>
+                                <a href="#">支架</a>
+                                <a href="#">电池/充电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>影音娱乐 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">耳机/耳麦</a>
+                                <a href="#">音箱/音响</a>
+                                <a href="#">便携/无线音箱</a>
+                                <a href="#">麦克风</a>
+                                <a href="#">MP3/MP4</a>
+                                <a href="#">专业音频</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>智能设备 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">智能手环</a>
+                                <a href="#">智能手表</a>
+                                <a href="#">智能眼镜</a>
+                                <a href="#">智能机器人</a>
+                                <a href="#">运动跟踪器</a>
+                                <a href="#">健康监测</a>
+                                <a href="#">智能配饰</a>
+                                <a href="#">智能家居</a>
+                                <a href="#">体感车</a>
+                                <a href="#">无人机</a>
+                                <a href="#">其他配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电子教育 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">学生平板</a>
+                                <a href="#">点读机/笔</a>
+                                <a href="#">早教益智</a>
+                                <a href="#">录音笔</a>
+                                <a href="#">电纸书</a>
+                                <a href="#">电子词典</a>
+                                <a href="#">复读机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+            <div class="pop_menu">
+                <div class="pop_left">
+                    <h3>
+                        <ul>
+                            <li>
+                                <a href="#">玩3C<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">手机频道<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">网上营业厅<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">配件城<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">影像Club<span></span></a>
+                            </li>
+                            <li>
+                                <a href="#">以旧换新<span></span></a>
+                            </li>
+                        </ul>
+                    </h3>
+                    <ul class="pop_menu_list">
+                        <li>
+                            <h4><a href="#"><strong>电脑整机 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">笔记本</a>
+                                <a href="#">游戏本</a>
+                                <a href="#">平板电脑</a>
+                                <a href="#">平板电脑配件</a>
+                                <a href="#">台式机</a>
+                                <a href="#">一体机</a>
+                                <a href="#">服务器/工作站</a>
+                                <a href="#">笔记本配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电脑配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">显示器</a>
+                                <a href="#">CPU</a>
+                                <a href="#">主板</a>
+                                <a href="#">硬盘</a>
+                                <a href="#">内存</a>
+                                <a href="#">机箱</a>
+                                <a href="#">电源</a>
+                                <a href="#">面散热器膜</a>
+                                <a href="#">刻录机/光驱</a>
+                                <a href="#">声卡/扩展卡</a>
+                                <a href="#">装机配件</a>
+                                <a href="#">显卡</a>
+                                <a href="#">SSD固态硬盘</a>
+                                <a href="#">组装电脑</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>外设产品 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">鼠标</a>
+                                <a href="#">键盘</a>
+                                <a href="#">键鼠套装</a>
+                                <a href="#">网络仪表仪器</a>
+                                <a href="#">U盘</a>
+                                <a href="#">移动硬盘</a>
+                                <a href="#">鼠标垫</a>
+                                <a href="#">摄像头</a>
+                                <a href="#">线缆</a>
+                                <a href="#">手写板</a>
+                                <a href="#">硬盘盒</a>
+                                <a href="#">电脑工具</a>
+                                <a href="#">电脑清洁</a>
+                                <a href="#">UPS电源</a>
+                                <a href="#">插座缆</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>摄影摄像 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">数码相机</a>
+                                <a href="#">单电/微单相机</a>
+                                <a href="#">单反相机</a>
+                                <a href="#">拍立得</a>
+                                <a href="#">运动相机</a>
+                                <a href="#">摄像机</a>
+                                <a href="#">镜头</a>
+                                <a href="#">户外器材</a>
+                                <a href="#">影棚器材</a>
+                                <a href="#">冲印服务</a>
+                                <a href="#">数码相框</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>数码配件 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">存储卡</a>
+                                <a href="#">三脚架/云台</a>
+
+                                <a href="#">相机包</a>
+                                <a href="#">相机包</a>
+                                <a href="#">滤镜</a>
+                                <a href="#">闪光灯/手柄</a>
+                                <a href="#">相机清洁/贴膜</a>
+                                <a href="#">机身附件</a>
+                                <a href="#">镜头附件</a>
+                                <a href="#">读卡器</a>
+                                <a href="#">支架</a>
+                                <a href="#">电池/充电器</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>影音娱乐 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">耳机/耳麦</a>
+                                <a href="#">音箱/音响</a>
+                                <a href="#">便携/无线音箱</a>
+                                <a href="#">麦克风</a>
+                                <a href="#">MP3/MP4</a>
+                                <a href="#">专业音频</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>智能设备 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">智能手环</a>
+                                <a href="#">智能手表</a>
+                                <a href="#">智能眼镜</a>
+                                <a href="#">智能机器人</a>
+                                <a href="#">运动跟踪器</a>
+                                <a href="#">健康监测</a>
+                                <a href="#">智能配饰</a>
+                                <a href="#">智能家居</a>
+                                <a href="#">体感车</a>
+                                <a href="#">无人机</a>
+                                <a href="#">其他配件</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                        <li>
+                            <h4><a href="#"><strong>电子教育 &gt;</strong></a></h4>
+                            <div class="pop_left_list">
+                                <a href="#">学生平板</a>
+                                <a href="#">点读机/笔</a>
+                                <a href="#">早教益智</a>
+                                <a href="#">录音笔</a>
+                                <a href="#">电纸书</a>
+                                <a href="#">电子词典</a>
+                                <a href="#">复读机</a>
+                            </div>
+                        </li>
+                        <div class="border"></div>
+                    </ul>
+                </div>
+                <div class="pop_right">
+                    <a href="javascript:;"><img src="images/pop_menu.jpg"></a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--图片轮播-->
+        <div class="pic_scroll">
+            <div class="corll_wrap">
+                <ul class="picture_list">
+                    <li style="opacity: 0;"><a href="#"><img src="images/pic_scroll/1.jpg"></a></li>
+                    <li style="opacity: 1;"><a href="#"><img src="images/pic_scroll/2.jpg"></a></li>
+                    <li style="opacity: 0;"><a href="#"><img src="images/pic_scroll/3.jpg"></a></li>
+                    <li style="opacity: 0;"><a href="#"><img src="images/pic_scroll/4.jpg"></a></li>
+                    <li style="opacity: 0;"><a href="#"><img src="images/pic_scroll/5.jpg"></a></li>
+                    <li style="opacity: 0;"><a href="#"><img src="images/pic_scroll/6.jpg"></a></li>
+                </ul>
+            </div>
+            <ul class="numlist">
+                <li class=""><a href="javascript:;">1</a></li>
+                <li class="active"><a href="javascript:;">2</a></li>
+                <li class=""><a href="javascript:;">3</a></li>
+                <li class=""><a href="javascript:;">4</a></li>
+                <li class=""><a href="javascript:;">5</a></li>
+                <li class=""><a href="javascript:;">6</a></li>
+            </ul>
+            <div class="prev public_prev"></div>
+            <div class="next public_next"></div>
+        </div>
+
+        <!--图片轮播右侧部分-->
+        <div class="nav_right">
+            <div class="news">
+                <h2>京东快报<a href="#">更多 &gt;</a></h2>
+                <ul class="news_list">
+                    <li><a href="#"><strong>[特惠]</strong>大杂蟹礼券买3送1</a></li>
+                    <li><a href="#"><strong>[公告]</strong>”放心肉“就在京东生鲜</a></li>
+                    <li><a href="#"><strong>[特惠]</strong>小家电详见8.8折 抢99减98卷</a></li>
+                    <li><a href="#"><strong>[公告]</strong>贵州扶贫馆 高原香茗邀你赏</a></li>
+                    <li><a href="#"><strong>[特惠]</strong>1元抢宝，免费领10-2优惠券</a></li>
+                </ul>
+            </div>
+            <ul class="menu_list">
+                <li><a href="#"><i></i><span>话费</span></a></li>
+                <li><a href="#"><i></i><span>机票</span></a></li>
+                <li><a href="#"><i></i><span>电影票</span></a></li>
+                <li><a href="#"><i></i><span>游戏</span></a></li>
+                <li><a href="#"><i></i><span>彩票</span></a></li>
+                <li><a href="#"><i></i><span>加油卡</span></a></li>
+                <li><a href="#"><i></i><span>酒店</span></a></li>
+                <li><a href="#"><i></i><span>火车票</span></a></li>
+                <li><a href="#"><i></i><span>众筹</span></a></li>
+                <li><a href="#"><i></i><span>理财</span></a></li>
+                <li><a href="#"><i></i><span>礼品卡</span></a></li>
+                <li><a href="#"><i></i><span>白条</span></a></li>
+            </ul>
+            <div class="content_banner">
+                <a href="#"><img src="images/content_banner.jpg"></a>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <!--图片轮播下面部分-->
+    <section class="hot">
+        <div class="hot_banner">
+            <a href="#"><img src="images/pic_sroll1/banner.jpg"></a>
+        </div>
+        <div class="hot_pic_scroll">
+            <ul class="pic_list" style="left: 0px;">
+                <li><a href="#"><img src="images/pic_sroll1/1.jpg"></a></li>
+                <li><a href="#"><img src="images/pic_sroll1/2.jpg"></a></li>
+                <li><a href="#"><img src="images/pic_sroll1/3.jpg"></a></li>
+                <li><a href="#"><img src="images/pic_sroll1/4.jpg"></a></li>
+                <li><a href="#"><img src="images/pic_sroll1/5.jpg"></a></li>
+                <li><a href="#"><img src="images/pic_sroll1/6.jpg"></a></li>
+                <li><a href="#"><img src="images/pic_sroll1/7.jpg"></a></li>
+                <li><a href="#"><img src="images/pic_sroll1/8.jpg"></a></li>
+                <li><a href="#"><img src="images/pic_sroll1/9.jpg"></a></li>
+                <li><a href="#"><img src="images/pic_sroll1/10.jpg"></a></li>
+                <li><a href="#"><img src="images/pic_sroll1/11.jpg"></a></li>
+                <li><a href="#"><img src="images/pic_sroll1/12.jpg"></a></li>
+            </ul>
+            <div class="prev public_prev"></div>
+            <div class="next public_next"></div>
+        </div>
+    </section>
+    <!--图片轮播下面部分end-->
+
+
+    <!--猜你喜欢-->
+    <div class="love w">
+        <div class="title">
+            <h4>猜你喜欢</h4>
+            <a href="#">换一批</a>
+        </div>
+        <div class="line">
+            <i></i>
+        </div>
+        <ul>
+            <li>
+                <a href="http://item.jd.com/1195551.html" target="_blank">
+                    <div class="img"><img src="images/love/1.jpg"></div>
+                    <div class="text">
+                        <p>飞科(FLYCO)FS372全身水洗电动剃须刀刮胡</p>
+                        <strong>¥89.00</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://item.jd.com/923559.html" target="_blank">
+                    <div class="img"><img src="images/love/2.jpg"></div>
+                    <div class="text">
+                        <p>【京东超市】福临门粳米清香米中粮出品 大</p>
+                        <strong>¥29.90</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://item.jd.com/2717120.html" target="_blank">
+                    <div class="img"><img src="images/love/3.jpg"></div>
+                    <div class="text">
+                        <p>康佳（KONKA）A43U 43英寸64位10核</p>
+                        <strong>¥2099.00</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="<strong></strong>" target="_blank">
+                    <div class="img"><img src="images/love/4.jpg"></div>
+                    <div class="text">
+                        <p>美的（Midea）电压力锅5L双胆高压锅电脑版</p>
+                        <strong>¥279.00</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://item.jd.com/782353.html" target="_blank">
+                    <div class="img"><img src="images/love/5.jpg"></div>
+                    <div class="text">
+                        <p>飞利浦（PHILIPS）电动剃须刀RQ311双刀头</p>
+                        <strong>¥199.00</strong>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://item.jd.com/2946778.html" target="_blank">
+                    <div class="img"><img src="images/love/6.jpg"></div>
+                    <div class="text">
+                        <p>【众果100%纯果汁】黄金柑香橙混合果汁便携</p>
+                        <strong>¥64.80</strong>
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    <!--猜你喜欢end-->
+
+    <!--品质生活-->
+    <div id="life" class="w">
+        <h2>京东 · 品质生活</h2>
+        <div class="life_1">
+            <h3 class="life_h3">新发现</h3>
+            <a href="http://xinpin.jd.com/" target="_blank">
+                <img class="life_img" src="images/life/1.png">
+                <div class="text1">
+                    <h4 class="life_h4">外星人水冷游戏主机</h4>
+                    <p class="life_p">终极玩家的选择</p>
+                    <p class="life_p life_color">送冰豹游戏键盘</p>
+                </div>
+            </a>
+            <a href="http://a.jd.com/" target="_blank">
+                <img class="life_img" src="images/life/2.jpg">
+                <div class="text2">
+                    <h4 class="life_h4">领券中心</h4>
+                    <p class="life_p">大闸蟹券</p>
+                    <p class="life_p life_color">立减300元</p>
+                </div>
+            </a>
+            <a href="http://miao.jd.com/" target="_blank">
+                <img class="life_img" src="images/life/3.jpg">
+                <div class="text3">
+                    <h4 class="life_h4">限时秒杀</h4>
+                    <p class="life_p">好货连连</p>
+                    <p class="life_p life_color">精彩秒不停</p>
+                </div>
+            </a>
+        </div>
+        <div class="life_2">
+            <h3 class="life_h3">好东西</h3>
+            <a href="http://hao.jd.com/" target="_blank">
+                <img class="life_img" src="images/life/4.jpg">
+                <div class="text1">
+                    <h4 class="life_h4">达人推荐</h4>
+                    <p class="life_p">魅族新品</p>
+                    <p class="life_p life_color">白条免息</p>
+                </div>
+            </a>
+            <a href="http://hao.jd.com/ilist.html" target="_blank">
+                <img class="life_img" src="images/life/5.jpg">
+                <div class="text2">
+                    <h4 class="life_h4">头条咨询</h4>
+                    <p class="life_p">腕上私语</p>
+                    <p class="life_p life_color">选择适合你的</p>
+                </div>
+            </a>
+        </div>
+        <div class="life_1 life_3">
+            <h3 class="life_h3">品牌街</h3>
+            <a href="http://brand.jd.com/" target="_blank">
+                <img class="life_img" src="images/life/6.jpg">
+                <div class="text1">
+                    <h4 class="life_h4">手机大牌</h4>
+                    <p class="life_p">小米</p>
+                    <p class="life_p life_color">国产手机</p>
+                </div>
+            </a>
+            <a href="http://brand.jd.com/International.html" target="_blank">
+                <img class="life_img" src="images/life/7.png">
+                <div class="text2">
+                    <h4 class="life_h4">国际大牌</h4>
+                    <p class="life_p">亦凡同款太阳镜</p>
+                    <p class="life_p life_color">雷朋全场低至<br>5.5折元</p>
+                </div>
+            </a>
+            <a href="http://miao.jd.com/" target="_blank">
+                <img class="life_img" src="images/life/8.png">
+                <div class="text3">
+                    <h4 class="life_h4">本周特卖</h4>
+                    <p class="life_p">大牌折扣</p>
+                    <p class="life_p life_color">每周上新</p>
+                </div>
+            </a>
+        </div>
+        <div class="life_4">
+            <ul>
+                <li><a href="javascript:;"><img src="images/shangbiao/1.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/2.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/3.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/4.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/5.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/6.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/7.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/8.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/9.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/10.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/11.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/12.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/13.jpg"></a></li>
+                <li><a href="javascript:;"><img src="images/shangbiao/14.jpg"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--品质生活end-->
+
+    <div class="slogen">
+        <ul>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="w f1">
+            <ul>
+                <li>
+                    <h4>购物指南</h4>
+                    <a href="javascirpt:;">购物流程</a>
+                    <a href="javascirpt:;">会员介绍</a>
+                    <a href="javascirpt:;">生活旅行团购</a>
+                    <a href="javascirpt:;">常见问题</a>
+                    <a href="javascirpt:;">大家电</a>
+                    <a href="javascirpt:;">联系客服</a>
+                </li>
+                <li>
+                    <h4>配送方式</h4>
+                    <a href="javascript:;">上门自提</a>
+                    <a href="javascript:;">211限时达</a>
+                    <a href="javascript:;">配送服务查询</a>
+                    <a href="javascript:;">配送费收取标准</a>
+                    <a href="javascript:;">海外配送</a>
+                </li>
+                <li>
+                    <h4>支付方式</h4>
+                    <a href="javascript:;">货到付款</a>
+                    <a href="javascript:;">在线支付</a>
+                    <a href="javascript:;">分期付款</a>
+                    <a href="javascript:;">邮局汇款</a>
+                    <a href="javascript:;">公司转账</a>
+                </li>
+                <li>
+                    <h4>售后服务</h4>
+                    <a href="javascript:;">售后政策</a>
+                    <a href="javascript:;">价格保护</a>
+                    <a href="javascript:;">退货说明</a>
+                    <a href="javascript:;">返修/退换货</a>
+                    <a href="javascript:;">取消订单</a>
+                </li>
+                <li>
+                    <h4>特色服务</h4>
+                    <a href="javascript:;">夺宝岛</a>
+                    <a href="javascript:;">DIY装机</a>
+                    <a href="javascript:;">延保服务</a>
+                    <a href="javascript:;">京东E卡</a>
+                    <a href="javascript:;">京东通信</a>
+                    <a href="javascript:;">京东JD+</a>
+                </li>
+                <li>
+                    <h4>京东自营覆盖区县</h4>
+                    <p>京东已向全国2654个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+                    <a href="javascript:;">查看详情 &gt;</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="w f2">
+            <ul>
+                <li><a href="javascript:;">关于我们</a></li>
+                <li><a href="javascript:;">联系我们</a></li>
+                <li><a href="javascript:;">联系客服</a></li>
+                <li><a href="javascript:;">商家入驻</a></li>
+                <li><a href="javascript:;">营销中心</a></li>
+                <li><a href="javascript:;">手机京东</a></li>
+                <li><a href="javascript:;">友情链接</a></li>
+                <li><a href="javascript:;">销售联盟</a></li>
+                <li><a href="javascript:;">京东社区</a></li>
+                <li><a href="javascript:;">京东公益</a></li>
+                <li><a href="javascript:;">English Site</a></li>
+                <li><a href="javascript:;">Contact Us</a></li>
+            </ul>
+            <p><a href="javascript:;">京公网安备 11000002000088号</a> | 京ICP证070359号 | <a
+                    href="javascript:;">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a> | 新出发京零 字第大120007号<br>
+                互联网出版许可证编号新出网证(京)字150号 | <a href="javascript:;">出版物经营许可证</a> | <a
+                    href="javascript:;">网络文化经营许可证京网文[2014]2148-348号</a> | 违法和不良信息举报电话：4006561155</p>
+            <p>Copyright © 2004 - 2016 京东JD.com 版权所有 | 消费者维权热线：4006067733</p>
+            <p>京东旗下网站：京东钱包</p>
+        </div>
+
+    </footer>
+
+    <div id="elevator" style="top: 187.5px; opacity: 0; left: -300px;">
+        <ul>
+            <li class="active">
+                <i>1F</i>
+                <b>服饰</b>
+            </li>
+            <li class="">
+                <i>2F</i>
+                <b>美妆</b>
+            </li>
+            <li>
+                <i>3F</i>
+                <b>手机</b>
+            </li>
+            <li>
+                <i>4F</i>
+                <b>家电</b>
+            </li>
+            <li>
+                <i>5F</i>
+                <b>数码</b>
+            </li>
+        </ul>
+    </div>
+
+    <div id="toolbars" style="height: 559px;">
+        <div class="window_line"></div>
+        <ul class="toolbars_tab" style="top: 189.5px;">
+            <li>
+                <i style="right: -71px;">京东会员</i>
+                <span style="background-color: rgb(122, 110, 110);"></span>
+            </li>
+            <li><i>购物车</i><span></span></li>
+            <li><i>我的关注</i><span></span></li>
+            <li><i>我的足迹</i><span></span></li>
+            <li><i>质询JIMI</i><span></span></li>
+        </ul>
+        <ul class="toolbars_bottom">
+            <li class="return_top"><i style="right: -71px;">顶部</i><span
+                    style="background-color: rgb(122, 110, 110);"></span></li>
+            <li><i>反馈</i><span></span></li>
+        </ul>
+
+        <div class="toolbars_content">
+            <div class="close"></div>
+        </div>
+    </div>
+</body>
+</html>
